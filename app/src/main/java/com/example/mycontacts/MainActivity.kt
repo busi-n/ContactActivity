@@ -10,7 +10,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        
+        val firstName="Khulisani"
+        val lastName="Msipa"
+        var address="63 Cone cres Goodwood "
+        var isMale=false
+        val dayOfBirth=15
+        val monthOfBirth="September"
+        val yearOfBirth=2006
         setContentView(R.layout.activity_main)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
